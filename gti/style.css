@@ -1,0 +1,483 @@
+header {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  margin-left: -10px;
+  margin-right: -8px;
+}
+
+.map_ok {
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: tan;
+    background-repeat: repeat-y;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+}
+
+footer {
+    background-color: #663300;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    flex-wrap: wrap;
+    color: white;
+    border-top: 4px solid #195c2b;
+    margin-top: 15px;
+    bottom: 0;
+    position: fixed;
+    width: -webkit-fill-available;
+}
+
+footer2 {
+    background-color: #663300;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    flex-wrap: wrap;
+    color: white;
+    border-top: 4px solid #195c2b;
+    margin-top: 15px;
+    bottom: 0;
+    position: relative;
+    width: -webkit-fill-available;
+}
+
+.content {
+    display: grid;
+    flex-direction: row;
+    justify-items: center;
+}
+
+p2{
+   justify-content: center;
+   display: flex;
+   margin-bottom: 15px;
+}
+
+h1 {
+    flex: 5;
+    text-transform: none;
+    font-size: 85px;
+    color: #266417;
+    text-shadow: 3px 5px #000000;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 1em;
+}
+
+
+
+h2 {
+   display: flex;
+   color: white;
+   font-size: 35px;
+   justify-content: center;
+   text-shadow: 3px 3px #b3abab;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    font-size: 2.1em;
+    color: #266417;
+    text-shadow: 1.5px 2px #000000;
+}
+
+h4{
+    font-size: 1.7em;
+    font-family: none;
+    font-weight: 800;
+    color: white;
+}
+
+p1{
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+    margin-bottom: -15px;
+    font-size: 20px;
+}
+
+.buffer {
+    margin-top: -30px;
+}
+
+img.header-logo {
+    height: 325%;
+    width: 125%;
+    margin-bottom: -100px;
+    border-radius: 45%;
+    margin-left: -12px;
+}
+
+img.tulsa-skyline {
+    width: 40%;
+    margin: 0;
+    border-radius: 125px;
+    border-style: outset;
+    border-color: darkgreen;
+    justify-content: center;
+    display: flex;
+}
+/* navbar */
+
+nav {
+  background-color: #663300;
+  height: 58px;
+  width: 100%;
+  border-bottom: 4px solid #195c2b;
+}
+
+.navbar-logo {
+  float: left;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.navbar-logo img {
+  height: 90px;
+  border-radius: 50%;
+  border: 3px solid #663300;
+  box-shadow: 0px 10px 10px -5px #663300;
+  margin-left: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+  margin-right: 15px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li a:hover {
+  background-color: #195c2b;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #663300;
+  min-width: fit-content;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 0px 0px 5px 5px;
+  border: 3px solid #195c2b;
+  border-top: none;
+}
+
+.dropdown-menu li {
+  display: block;
+}
+
+.dropdown-menu li a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #195c2b;
+  border-radius: 0px 0px 5px 5px;
+  border: 1px solid #663300;
+  border-top: none;
+}
+
+
+
+/* login portal */
+
+.register {
+    display: flex;
+    justify-content: center;
+}
+
+.username{
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.password{
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+.cpassword{
+    margin-bottom:10px;
+}
+
+.email{
+    margin-bottom:10px;
+}
+
+.email2 {
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.confirm-password {
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+.login-portal {
+    margin-top: -25px;
+    display: flex;
+    justify-content:center;
+}
+
+.portal-access {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    background-color: #cdcdcd;
+    border-style: outset;
+    border-radius: 15px;
+    width: fit-content;
+    align-self: center;
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.login-button{
+    display:flex;
+    justify-content:center;
+}
+
+.member_add{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    margin-top: -4em;
+}
+
+input {
+    border-radius: 5px;
+    border-style: ridge;
+    width: 86%;
+}
+
+
+/* login form */
+
+input {
+ 
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* table */
+
+table{
+    border-collapse: collapse;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: inset;
+    border-color: #266417;
+    border-width: 5px;
+}
+
+tbody th {
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid black;
+    border-style: inset;
+    border-color: #266417;
+    border-width: 3px;
+    height: auto;
+}
+
+td:nth-child(1){
+    font-weight:bold;
+}
+
+thead {
+    background-color: #663300;
+    color: #efefef;
+}
+
+.members {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.sortable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #d9c09e;
+}
+
+
+#social1{
+    display: flex;
+    justify-content: right;
+}
+
+#social {
+    height: 85px;
+    margin-right: 15px;
+}
+
+.member{
+    border-radius:15px;
+    background-color: beige;
+}
+
+.admin{
+    margin-left: 10px;
+    border-radius:15px;
+    background-color: beige;
+}
+
+/* admin */
+
+.card-header{
+    background-color: #663300;
+    border: green;
+    border-style: ridge;
+    border-bottom: none;
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-header1{
+    background-color: #663300;
+    border: green;
+    border-style: ridge;
+    border-bottom: none;
+    border-width: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 669px;
+    height: 50px;
+    padding: 3px;
+}
+
+/* main page table */
+
+.tulsa-skyline {
+  width: 40%;
+  margin-right: 50px;
+}
+
+caption {
+  background-color: darkgreen;
+  border: 2px solid black;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+a {
+    color: #266417;
+}
+
+/* admin pages */
+.card-header {
+    background-color: #663300;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: none;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #663300;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    color: white;
+    border: green;
+    border-style: ridge;
+}
+
+.form-control {
+   background-color: #1a6c1a; 
+   color: white;
+   border-width: 2px;
+   border-color: black;
+   border-image: initial;
+}
+
+.btn-primary {
+    background-color: green;
+    border-color: black;
+    border-style: revert;
+    color: #fff;
+}

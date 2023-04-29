@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Register</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+
+        <header>
+
+<nav>
+  <div class="navbar-logo">
+    <a href="index.php"><img src="images/logo.png" alt="Logo"></a>
+  </div>
+  <ul>
+    <li><a href="index.php">Home</a></li>
+    <li><a href="events.php">Events</a></li>
+    <li><a href="map.php">Maps</a></li>
+    <li class="dropdown">
+      <a href="#">Orgs/Members</a>
+      <ul class="dropdown-menu">
+        <li><a href="organizations.php">Organizations</a></li>
+        <li><a href="members.php">Members</a></li>
+      </ul>
+    </li>
+    <li><a href="about.php">About</a></li>
+    <li class="dropdown">
+      <a href="#">Account</a>
+      <ul class="dropdown-menu">
+        <li><a href="profile.php">Profile</a></li>
+        <li><a href="login.php">Login</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </header>
+
+
+	<body>
+	    <main>
+		<div class="register-portal">
+			<h1>Register</h1>
+		<div class="register">
+			<form action="register.php" method="post" autocomplete="off">
+
+                <div class="username">
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Username" id="username" required><br></div>
+				
+                <div class="password">
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Password" id="password" required><br></div>
+
+                <div class="confirm-password">
+				<label for ="confirm-password">
+				    <i class="fa-solid fa-check"></i>
+				</label>
+				<input type="password" name="confirm_password" placeholder="confirm_password" id="confirm_password" required><br></div>
+				
+                <div class="email2">
+				<label for="email">
+					<i class="fas fa-envelope"></i>
+				</label>
+				<input type="email" name="email" placeholder="Email" id="email" required><br></div>
+				<div class="login-button">
+				<input type="submit" value="Register">
+			</form>
+		</div>
+		</div>
+	</main>
+	
+	    <footer>
+        <p> Copyright © 2023 Adam Higgins, Reagan Scroggins, Greg Martinez, and Kenny Bigfeather | All Rights Reserved</p>
+    </footer>
+	</body>
+</html>
